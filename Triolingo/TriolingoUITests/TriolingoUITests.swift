@@ -1,13 +1,14 @@
 //
-//  Tests_iOS.swift
-//  Tests iOS
+//  TriolingoUITests.swift
+//  TriolingoUITests
 //
-//  Created by BZ on 2/4/24.
+//  Created by Bleron Morina on 2/25/24.
+//  Copyright © 2024 Bleron Morina. All rights reserved.
 //
 
 import XCTest
 
-class Tests_iOS: XCTestCase {
+class TriolingoUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -34,7 +35,7 @@ class Tests_iOS: XCTestCase {
     func testLaunchPerformance() throws {
         if #available(macOS 10.15, iOS 13.0, tvOS 13.0, *) {
             // This measures how long it takes to launch your application.
-            measure(metrics: [XCTApplicationLaunchMetric()]) {
+            measure(metrics: [XCTOSSignpostMetric.applicationLaunch]) {
                 XCUIApplication().launch()
             }
         }

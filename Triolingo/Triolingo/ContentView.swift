@@ -1,16 +1,16 @@
 //
 //  ContentView.swift
-//  Shared
+//  Triolingo
 //
-//  Created by BZ on 2/4/24.
+//  Created by Bleron Morina on 2/25/24.
+//  Copyright © 2024 Bleron Morina. All rights reserved.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Text("Hello, World!")
     }
 }
 
