@@ -3,70 +3,76 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		554F9DFF2B8BE34B006C4DA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554F9DFE2B8BE34B006C4DA1 /* AppDelegate.swift */; };
-		554F9E012B8BE34B006C4DA1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554F9E002B8BE34B006C4DA1 /* SceneDelegate.swift */; };
-		554F9E032B8BE34B006C4DA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554F9E022B8BE34B006C4DA1 /* ContentView.swift */; };
-		554F9E052B8BE35D006C4DA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 554F9E042B8BE35D006C4DA1 /* Assets.xcassets */; };
-		554F9E082B8BE35D006C4DA1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 554F9E072B8BE35D006C4DA1 /* Preview Assets.xcassets */; };
-		554F9E0B2B8BE35D006C4DA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 554F9E092B8BE35D006C4DA1 /* LaunchScreen.storyboard */; };
-		554F9E162B8BE35E006C4DA1 /* TriolingoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554F9E152B8BE35E006C4DA1 /* TriolingoTests.swift */; };
-		554F9E212B8BE35E006C4DA1 /* TriolingoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554F9E202B8BE35E006C4DA1 /* TriolingoUITests.swift */; };
+		26D177142B8CBCA600B57D25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D177132B8CBCA600B57D25 /* AppDelegate.swift */; };
+		26D177162B8CBCA600B57D25 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D177152B8CBCA600B57D25 /* SceneDelegate.swift */; };
+		26D177182B8CBCA600B57D25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D177172B8CBCA600B57D25 /* ViewController.swift */; };
+		26D1771B2B8CBCA600B57D25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26D177192B8CBCA600B57D25 /* Main.storyboard */; };
+		26D1771D2B8CBCA800B57D25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26D1771C2B8CBCA800B57D25 /* Assets.xcassets */; };
+		26D177202B8CBCA800B57D25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26D1771E2B8CBCA800B57D25 /* LaunchScreen.storyboard */; };
+		26D1772B2B8CBCA800B57D25 /* TriolingoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D1772A2B8CBCA800B57D25 /* TriolingoTests.swift */; };
+		26D177352B8CBCA800B57D25 /* TriolingoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D177342B8CBCA800B57D25 /* TriolingoUITests.swift */; };
+		26D177372B8CBCA800B57D25 /* TriolingoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D177362B8CBCA800B57D25 /* TriolingoUITestsLaunchTests.swift */; };
+		26D177442B8CBFDA00B57D25 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D177432B8CBFDA00B57D25 /* LoginViewController.swift */; };
+		26D177462B8CCE0A00B57D25 /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D177452B8CCE0A00B57D25 /* CustomTableViewController.swift */; };
+		26D177482B8CCF0100B57D25 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D177472B8CCF0100B57D25 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		554F9E122B8BE35E006C4DA1 /* PBXContainerItemProxy */ = {
+		26D177272B8CBCA800B57D25 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 554F9DF32B8BE34B006C4DA1 /* Project object */;
+			containerPortal = 26D177082B8CBCA600B57D25 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 554F9DFA2B8BE34B006C4DA1;
+			remoteGlobalIDString = 26D1770F2B8CBCA600B57D25;
 			remoteInfo = Triolingo;
 		};
-		554F9E1D2B8BE35E006C4DA1 /* PBXContainerItemProxy */ = {
+		26D177312B8CBCA800B57D25 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 554F9DF32B8BE34B006C4DA1 /* Project object */;
+			containerPortal = 26D177082B8CBCA600B57D25 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 554F9DFA2B8BE34B006C4DA1;
+			remoteGlobalIDString = 26D1770F2B8CBCA600B57D25;
 			remoteInfo = Triolingo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		554F9DFB2B8BE34B006C4DA1 /* Triolingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Triolingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		554F9DFE2B8BE34B006C4DA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		554F9E002B8BE34B006C4DA1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		554F9E022B8BE34B006C4DA1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		554F9E042B8BE35D006C4DA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		554F9E072B8BE35D006C4DA1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		554F9E0A2B8BE35D006C4DA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		554F9E0C2B8BE35D006C4DA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		554F9E112B8BE35E006C4DA1 /* TriolingoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriolingoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		554F9E152B8BE35E006C4DA1 /* TriolingoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriolingoTests.swift; sourceTree = "<group>"; };
-		554F9E172B8BE35E006C4DA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		554F9E1C2B8BE35E006C4DA1 /* TriolingoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriolingoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		554F9E202B8BE35E006C4DA1 /* TriolingoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriolingoUITests.swift; sourceTree = "<group>"; };
-		554F9E222B8BE35E006C4DA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26D177102B8CBCA600B57D25 /* Triolingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Triolingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26D177132B8CBCA600B57D25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26D177152B8CBCA600B57D25 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		26D177172B8CBCA600B57D25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		26D1771A2B8CBCA600B57D25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26D1771C2B8CBCA800B57D25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26D1771F2B8CBCA800B57D25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26D177212B8CBCA800B57D25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26D177262B8CBCA800B57D25 /* TriolingoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriolingoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26D1772A2B8CBCA800B57D25 /* TriolingoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriolingoTests.swift; sourceTree = "<group>"; };
+		26D177302B8CBCA800B57D25 /* TriolingoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriolingoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26D177342B8CBCA800B57D25 /* TriolingoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriolingoUITests.swift; sourceTree = "<group>"; };
+		26D177362B8CBCA800B57D25 /* TriolingoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriolingoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		26D177432B8CBFDA00B57D25 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		26D177452B8CCE0A00B57D25 /* CustomTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
+		26D177472B8CCF0100B57D25 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		554F9DF82B8BE34B006C4DA1 /* Frameworks */ = {
+		26D1770D2B8CBCA600B57D25 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		554F9E0E2B8BE35E006C4DA1 /* Frameworks */ = {
+		26D177232B8CBCA800B57D25 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		554F9E192B8BE35E006C4DA1 /* Frameworks */ = {
+		26D1772D2B8CBCA800B57D25 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,62 +82,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		554F9DF22B8BE34B006C4DA1 = {
+		26D177072B8CBCA600B57D25 = {
 			isa = PBXGroup;
 			children = (
-				554F9DFD2B8BE34B006C4DA1 /* Triolingo */,
-				554F9E142B8BE35E006C4DA1 /* TriolingoTests */,
-				554F9E1F2B8BE35E006C4DA1 /* TriolingoUITests */,
-				554F9DFC2B8BE34B006C4DA1 /* Products */,
+				26D177122B8CBCA600B57D25 /* Triolingo */,
+				26D177292B8CBCA800B57D25 /* TriolingoTests */,
+				26D177332B8CBCA800B57D25 /* TriolingoUITests */,
+				26D177112B8CBCA600B57D25 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		554F9DFC2B8BE34B006C4DA1 /* Products */ = {
+		26D177112B8CBCA600B57D25 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				554F9DFB2B8BE34B006C4DA1 /* Triolingo.app */,
-				554F9E112B8BE35E006C4DA1 /* TriolingoTests.xctest */,
-				554F9E1C2B8BE35E006C4DA1 /* TriolingoUITests.xctest */,
+				26D177102B8CBCA600B57D25 /* Triolingo.app */,
+				26D177262B8CBCA800B57D25 /* TriolingoTests.xctest */,
+				26D177302B8CBCA800B57D25 /* TriolingoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		554F9DFD2B8BE34B006C4DA1 /* Triolingo */ = {
+		26D177122B8CBCA600B57D25 /* Triolingo */ = {
 			isa = PBXGroup;
 			children = (
-				554F9DFE2B8BE34B006C4DA1 /* AppDelegate.swift */,
-				554F9E002B8BE34B006C4DA1 /* SceneDelegate.swift */,
-				554F9E022B8BE34B006C4DA1 /* ContentView.swift */,
-				554F9E042B8BE35D006C4DA1 /* Assets.xcassets */,
-				554F9E092B8BE35D006C4DA1 /* LaunchScreen.storyboard */,
-				554F9E0C2B8BE35D006C4DA1 /* Info.plist */,
-				554F9E062B8BE35D006C4DA1 /* Preview Content */,
+				26D177132B8CBCA600B57D25 /* AppDelegate.swift */,
+				26D177152B8CBCA600B57D25 /* SceneDelegate.swift */,
+				26D177172B8CBCA600B57D25 /* ViewController.swift */,
+				26D177192B8CBCA600B57D25 /* Main.storyboard */,
+				26D177432B8CBFDA00B57D25 /* LoginViewController.swift */,
+				26D1771C2B8CBCA800B57D25 /* Assets.xcassets */,
+				26D1771E2B8CBCA800B57D25 /* LaunchScreen.storyboard */,
+				26D177212B8CBCA800B57D25 /* Info.plist */,
+				26D177452B8CCE0A00B57D25 /* CustomTableViewController.swift */,
+				26D177472B8CCF0100B57D25 /* CustomTableViewCell.swift */,
 			);
 			path = Triolingo;
 			sourceTree = "<group>";
 		};
-		554F9E062B8BE35D006C4DA1 /* Preview Content */ = {
+		26D177292B8CBCA800B57D25 /* TriolingoTests */ = {
 			isa = PBXGroup;
 			children = (
-				554F9E072B8BE35D006C4DA1 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		554F9E142B8BE35E006C4DA1 /* TriolingoTests */ = {
-			isa = PBXGroup;
-			children = (
-				554F9E152B8BE35E006C4DA1 /* TriolingoTests.swift */,
-				554F9E172B8BE35E006C4DA1 /* Info.plist */,
+				26D1772A2B8CBCA800B57D25 /* TriolingoTests.swift */,
 			);
 			path = TriolingoTests;
 			sourceTree = "<group>";
 		};
-		554F9E1F2B8BE35E006C4DA1 /* TriolingoUITests */ = {
+		26D177332B8CBCA800B57D25 /* TriolingoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				554F9E202B8BE35E006C4DA1 /* TriolingoUITests.swift */,
-				554F9E222B8BE35E006C4DA1 /* Info.plist */,
+				26D177342B8CBCA800B57D25 /* TriolingoUITests.swift */,
+				26D177362B8CBCA800B57D25 /* TriolingoUITestsLaunchTests.swift */,
 			);
 			path = TriolingoUITests;
 			sourceTree = "<group>";
@@ -139,13 +139,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		554F9DFA2B8BE34B006C4DA1 /* Triolingo */ = {
+		26D1770F2B8CBCA600B57D25 /* Triolingo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 554F9E252B8BE35E006C4DA1 /* Build configuration list for PBXNativeTarget "Triolingo" */;
+			buildConfigurationList = 26D1773A2B8CBCA800B57D25 /* Build configuration list for PBXNativeTarget "Triolingo" */;
 			buildPhases = (
-				554F9DF72B8BE34B006C4DA1 /* Sources */,
-				554F9DF82B8BE34B006C4DA1 /* Frameworks */,
-				554F9DF92B8BE34B006C4DA1 /* Resources */,
+				26D1770C2B8CBCA600B57D25 /* Sources */,
+				26D1770D2B8CBCA600B57D25 /* Frameworks */,
+				26D1770E2B8CBCA600B57D25 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -153,107 +153,107 @@
 			);
 			name = Triolingo;
 			productName = Triolingo;
-			productReference = 554F9DFB2B8BE34B006C4DA1 /* Triolingo.app */;
+			productReference = 26D177102B8CBCA600B57D25 /* Triolingo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		554F9E102B8BE35E006C4DA1 /* TriolingoTests */ = {
+		26D177252B8CBCA800B57D25 /* TriolingoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 554F9E282B8BE35E006C4DA1 /* Build configuration list for PBXNativeTarget "TriolingoTests" */;
+			buildConfigurationList = 26D1773D2B8CBCA800B57D25 /* Build configuration list for PBXNativeTarget "TriolingoTests" */;
 			buildPhases = (
-				554F9E0D2B8BE35E006C4DA1 /* Sources */,
-				554F9E0E2B8BE35E006C4DA1 /* Frameworks */,
-				554F9E0F2B8BE35E006C4DA1 /* Resources */,
+				26D177222B8CBCA800B57D25 /* Sources */,
+				26D177232B8CBCA800B57D25 /* Frameworks */,
+				26D177242B8CBCA800B57D25 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				554F9E132B8BE35E006C4DA1 /* PBXTargetDependency */,
+				26D177282B8CBCA800B57D25 /* PBXTargetDependency */,
 			);
 			name = TriolingoTests;
 			productName = TriolingoTests;
-			productReference = 554F9E112B8BE35E006C4DA1 /* TriolingoTests.xctest */;
+			productReference = 26D177262B8CBCA800B57D25 /* TriolingoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		554F9E1B2B8BE35E006C4DA1 /* TriolingoUITests */ = {
+		26D1772F2B8CBCA800B57D25 /* TriolingoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 554F9E2B2B8BE35E006C4DA1 /* Build configuration list for PBXNativeTarget "TriolingoUITests" */;
+			buildConfigurationList = 26D177402B8CBCA800B57D25 /* Build configuration list for PBXNativeTarget "TriolingoUITests" */;
 			buildPhases = (
-				554F9E182B8BE35E006C4DA1 /* Sources */,
-				554F9E192B8BE35E006C4DA1 /* Frameworks */,
-				554F9E1A2B8BE35E006C4DA1 /* Resources */,
+				26D1772C2B8CBCA800B57D25 /* Sources */,
+				26D1772D2B8CBCA800B57D25 /* Frameworks */,
+				26D1772E2B8CBCA800B57D25 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				554F9E1E2B8BE35E006C4DA1 /* PBXTargetDependency */,
+				26D177322B8CBCA800B57D25 /* PBXTargetDependency */,
 			);
 			name = TriolingoUITests;
 			productName = TriolingoUITests;
-			productReference = 554F9E1C2B8BE35E006C4DA1 /* TriolingoUITests.xctest */;
+			productReference = 26D177302B8CBCA800B57D25 /* TriolingoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		554F9DF32B8BE34B006C4DA1 /* Project object */ = {
+		26D177082B8CBCA600B57D25 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
-				ORGANIZATIONNAME = "Bleron Morina";
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-					554F9DFA2B8BE34B006C4DA1 = {
-						CreatedOnToolsVersion = 11.6;
+					26D1770F2B8CBCA600B57D25 = {
+						CreatedOnToolsVersion = 15.2;
 					};
-					554F9E102B8BE35E006C4DA1 = {
-						CreatedOnToolsVersion = 11.6;
-						TestTargetID = 554F9DFA2B8BE34B006C4DA1;
+					26D177252B8CBCA800B57D25 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 26D1770F2B8CBCA600B57D25;
 					};
-					554F9E1B2B8BE35E006C4DA1 = {
-						CreatedOnToolsVersion = 11.6;
-						TestTargetID = 554F9DFA2B8BE34B006C4DA1;
+					26D1772F2B8CBCA800B57D25 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 26D1770F2B8CBCA600B57D25;
 					};
 				};
 			};
-			buildConfigurationList = 554F9DF62B8BE34B006C4DA1 /* Build configuration list for PBXProject "Triolingo" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = 26D1770B2B8CBCA600B57D25 /* Build configuration list for PBXProject "Triolingo" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 554F9DF22B8BE34B006C4DA1;
-			productRefGroup = 554F9DFC2B8BE34B006C4DA1 /* Products */;
+			mainGroup = 26D177072B8CBCA600B57D25;
+			productRefGroup = 26D177112B8CBCA600B57D25 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				554F9DFA2B8BE34B006C4DA1 /* Triolingo */,
-				554F9E102B8BE35E006C4DA1 /* TriolingoTests */,
-				554F9E1B2B8BE35E006C4DA1 /* TriolingoUITests */,
+				26D1770F2B8CBCA600B57D25 /* Triolingo */,
+				26D177252B8CBCA800B57D25 /* TriolingoTests */,
+				26D1772F2B8CBCA800B57D25 /* TriolingoUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		554F9DF92B8BE34B006C4DA1 /* Resources */ = {
+		26D1770E2B8CBCA600B57D25 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				554F9E0B2B8BE35D006C4DA1 /* LaunchScreen.storyboard in Resources */,
-				554F9E082B8BE35D006C4DA1 /* Preview Assets.xcassets in Resources */,
-				554F9E052B8BE35D006C4DA1 /* Assets.xcassets in Resources */,
+				26D177202B8CBCA800B57D25 /* LaunchScreen.storyboard in Resources */,
+				26D1771D2B8CBCA800B57D25 /* Assets.xcassets in Resources */,
+				26D1771B2B8CBCA600B57D25 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		554F9E0F2B8BE35E006C4DA1 /* Resources */ = {
+		26D177242B8CBCA800B57D25 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		554F9E1A2B8BE35E006C4DA1 /* Resources */ = {
+		26D1772E2B8CBCA800B57D25 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -263,52 +263,64 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		554F9DF72B8BE34B006C4DA1 /* Sources */ = {
+		26D1770C2B8CBCA600B57D25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				554F9DFF2B8BE34B006C4DA1 /* AppDelegate.swift in Sources */,
-				554F9E012B8BE34B006C4DA1 /* SceneDelegate.swift in Sources */,
-				554F9E032B8BE34B006C4DA1 /* ContentView.swift in Sources */,
+				26D177482B8CCF0100B57D25 /* CustomTableViewCell.swift in Sources */,
+				26D177442B8CBFDA00B57D25 /* LoginViewController.swift in Sources */,
+				26D177182B8CBCA600B57D25 /* ViewController.swift in Sources */,
+				26D177142B8CBCA600B57D25 /* AppDelegate.swift in Sources */,
+				26D177162B8CBCA600B57D25 /* SceneDelegate.swift in Sources */,
+				26D177462B8CCE0A00B57D25 /* CustomTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		554F9E0D2B8BE35E006C4DA1 /* Sources */ = {
+		26D177222B8CBCA800B57D25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				554F9E162B8BE35E006C4DA1 /* TriolingoTests.swift in Sources */,
+				26D1772B2B8CBCA800B57D25 /* TriolingoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		554F9E182B8BE35E006C4DA1 /* Sources */ = {
+		26D1772C2B8CBCA800B57D25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				554F9E212B8BE35E006C4DA1 /* TriolingoUITests.swift in Sources */,
+				26D177372B8CBCA800B57D25 /* TriolingoUITestsLaunchTests.swift in Sources */,
+				26D177352B8CBCA800B57D25 /* TriolingoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		554F9E132B8BE35E006C4DA1 /* PBXTargetDependency */ = {
+		26D177282B8CBCA800B57D25 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 554F9DFA2B8BE34B006C4DA1 /* Triolingo */;
-			targetProxy = 554F9E122B8BE35E006C4DA1 /* PBXContainerItemProxy */;
+			target = 26D1770F2B8CBCA600B57D25 /* Triolingo */;
+			targetProxy = 26D177272B8CBCA800B57D25 /* PBXContainerItemProxy */;
 		};
-		554F9E1E2B8BE35E006C4DA1 /* PBXTargetDependency */ = {
+		26D177322B8CBCA800B57D25 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 554F9DFA2B8BE34B006C4DA1 /* Triolingo */;
-			targetProxy = 554F9E1D2B8BE35E006C4DA1 /* PBXContainerItemProxy */;
+			target = 26D1770F2B8CBCA600B57D25 /* Triolingo */;
+			targetProxy = 26D177312B8CBCA800B57D25 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		554F9E092B8BE35D006C4DA1 /* LaunchScreen.storyboard */ = {
+		26D177192B8CBCA600B57D25 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				554F9E0A2B8BE35D006C4DA1 /* Base */,
+				26D1771A2B8CBCA600B57D25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26D1771E2B8CBCA800B57D25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26D1771F2B8CBCA800B57D25 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,14 +328,14 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		554F9E232B8BE35E006C4DA1 /* Debug */ = {
+		26D177382B8CBCA800B57D25 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -342,6 +354,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -352,7 +365,8 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -366,24 +380,25 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		554F9E242B8BE35E006C4DA1 /* Release */ = {
+		26D177392B8CBCA800B57D25 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -402,6 +417,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -412,7 +428,8 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -420,128 +437,142 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		554F9E262B8BE35E006C4DA1 /* Debug */ = {
+		26D1773B2B8CBCA800B57D25 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Triolingo/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HH4DMH2LBP;
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Triolingo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Bleron-Morina.Triolingo";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Group52.Triolingo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		554F9E272B8BE35E006C4DA1 /* Release */ = {
+		26D1773C2B8CBCA800B57D25 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Triolingo/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HH4DMH2LBP;
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Triolingo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Bleron-Morina.Triolingo";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Group52.Triolingo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		554F9E292B8BE35E006C4DA1 /* Debug */ = {
+		26D1773E2B8CBCA800B57D25 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TriolingoTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Bleron-Morina.TriolingoTests";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Group52.TriolingoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Triolingo.app/Triolingo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Triolingo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Triolingo";
 			};
 			name = Debug;
 		};
-		554F9E2A2B8BE35E006C4DA1 /* Release */ = {
+		26D1773F2B8CBCA800B57D25 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TriolingoTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Bleron-Morina.TriolingoTests";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Group52.TriolingoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Triolingo.app/Triolingo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Triolingo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Triolingo";
 			};
 			name = Release;
 		};
-		554F9E2C2B8BE35E006C4DA1 /* Debug */ = {
+		26D177412B8CBCA800B57D25 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TriolingoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Bleron-Morina.TriolingoUITests";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Group52.TriolingoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Triolingo;
 			};
 			name = Debug;
 		};
-		554F9E2D2B8BE35E006C4DA1 /* Release */ = {
+		26D177422B8CBCA800B57D25 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TriolingoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Bleron-Morina.TriolingoUITests";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Group52.TriolingoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Triolingo;
@@ -551,43 +582,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		554F9DF62B8BE34B006C4DA1 /* Build configuration list for PBXProject "Triolingo" */ = {
+		26D1770B2B8CBCA600B57D25 /* Build configuration list for PBXProject "Triolingo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				554F9E232B8BE35E006C4DA1 /* Debug */,
-				554F9E242B8BE35E006C4DA1 /* Release */,
+				26D177382B8CBCA800B57D25 /* Debug */,
+				26D177392B8CBCA800B57D25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		554F9E252B8BE35E006C4DA1 /* Build configuration list for PBXNativeTarget "Triolingo" */ = {
+		26D1773A2B8CBCA800B57D25 /* Build configuration list for PBXNativeTarget "Triolingo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				554F9E262B8BE35E006C4DA1 /* Debug */,
-				554F9E272B8BE35E006C4DA1 /* Release */,
+				26D1773B2B8CBCA800B57D25 /* Debug */,
+				26D1773C2B8CBCA800B57D25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		554F9E282B8BE35E006C4DA1 /* Build configuration list for PBXNativeTarget "TriolingoTests" */ = {
+		26D1773D2B8CBCA800B57D25 /* Build configuration list for PBXNativeTarget "TriolingoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				554F9E292B8BE35E006C4DA1 /* Debug */,
-				554F9E2A2B8BE35E006C4DA1 /* Release */,
+				26D1773E2B8CBCA800B57D25 /* Debug */,
+				26D1773F2B8CBCA800B57D25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		554F9E2B2B8BE35E006C4DA1 /* Build configuration list for PBXNativeTarget "TriolingoUITests" */ = {
+		26D177402B8CBCA800B57D25 /* Build configuration list for PBXNativeTarget "TriolingoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				554F9E2C2B8BE35E006C4DA1 /* Debug */,
-				554F9E2D2B8BE35E006C4DA1 /* Release */,
+				26D177412B8CBCA800B57D25 /* Debug */,
+				26D177422B8CBCA800B57D25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 554F9DF32B8BE34B006C4DA1 /* Project object */;
+	rootObject = 26D177082B8CBCA600B57D25 /* Project object */;
 }

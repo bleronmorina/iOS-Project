@@ -2,13 +2,12 @@
 //  AppDelegate.swift
 //  Triolingo
 //
-//  Created by Bleron Morina on 2/25/24.
-//  Copyright © 2024 Bleron Morina. All rights reserved.
+//  Created by Bleron Morina on 2024-02-26.
 //
 
 import UIKit
 
-@UIApplicationMain
+@main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 

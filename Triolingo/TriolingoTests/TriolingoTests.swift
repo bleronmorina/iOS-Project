@@ -2,14 +2,13 @@
 //  TriolingoTests.swift
 //  TriolingoTests
 //
-//  Created by Bleron Morina on 2/25/24.
-//  Copyright © 2024 Bleron Morina. All rights reserved.
+//  Created by Bleron Morina on 2024-02-26.
 //
 
 import XCTest
 @testable import Triolingo
 
-class TriolingoTests: XCTestCase {
+final class TriolingoTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -22,6 +21,9 @@ class TriolingoTests: XCTestCase {
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        // Any test you write for XCTest can be annotated as throws and async.
+        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
+        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
     }
 
     func testPerformanceExample() throws {
