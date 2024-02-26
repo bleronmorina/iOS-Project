@@ -19,6 +19,7 @@
 		26D177442B8CBFDA00B57D25 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D177432B8CBFDA00B57D25 /* LoginViewController.swift */; };
 		26D177462B8CCE0A00B57D25 /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D177452B8CCE0A00B57D25 /* CustomTableViewController.swift */; };
 		26D177482B8CCF0100B57D25 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D177472B8CCF0100B57D25 /* CustomTableViewCell.swift */; };
+		26D1774B2B8CEFE700B57D25 /* TriolingoDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 26D177492B8CEFE700B57D25 /* TriolingoDataModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		26D177432B8CBFDA00B57D25 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		26D177452B8CCE0A00B57D25 /* CustomTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
 		26D177472B8CCF0100B57D25 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		26D1774A2B8CEFE700B57D25 /* TriolingoDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TriolingoDataModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				26D177212B8CBCA800B57D25 /* Info.plist */,
 				26D177452B8CCE0A00B57D25 /* CustomTableViewController.swift */,
 				26D177472B8CCF0100B57D25 /* CustomTableViewCell.swift */,
+				26D177492B8CEFE700B57D25 /* TriolingoDataModel.xcdatamodeld */,
 			);
 			path = Triolingo;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				26D177482B8CCF0100B57D25 /* CustomTableViewCell.swift in Sources */,
 				26D177442B8CBFDA00B57D25 /* LoginViewController.swift in Sources */,
 				26D177182B8CBCA600B57D25 /* ViewController.swift in Sources */,
+				26D1774B2B8CEFE700B57D25 /* TriolingoDataModel.xcdatamodeld in Sources */,
 				26D177142B8CBCA600B57D25 /* AppDelegate.swift in Sources */,
 				26D177162B8CBCA600B57D25 /* SceneDelegate.swift in Sources */,
 				26D177462B8CCE0A00B57D25 /* CustomTableViewController.swift in Sources */,
@@ -619,6 +623,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		26D177492B8CEFE700B57D25 /* TriolingoDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				26D1774A2B8CEFE700B57D25 /* TriolingoDataModel.xcdatamodel */,
+			);
+			currentVersion = 26D1774A2B8CEFE700B57D25 /* TriolingoDataModel.xcdatamodel */;
+			path = TriolingoDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 26D177082B8CBCA600B57D25 /* Project object */;
 }
