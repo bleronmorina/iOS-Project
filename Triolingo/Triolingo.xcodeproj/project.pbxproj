@@ -17,6 +17,8 @@
 		2613EEA52B8E125E00F5B0D6 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2613EE9B2B8E125E00F5B0D6 /* User+CoreDataProperties.swift */; };
 		2613EEA62B8E125E00F5B0D6 /* Result+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2613EE9C2B8E125E00F5B0D6 /* Result+CoreDataClass.swift */; };
 		2613EEA72B8E125E00F5B0D6 /* Result+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2613EE9D2B8E125E00F5B0D6 /* Result+CoreDataProperties.swift */; };
+		2613EEAA2B8E23D300F5B0D6 /* SignUpMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2613EEA92B8E23D300F5B0D6 /* SignUpMainViewController.swift */; };
+		2613EEAC2B8E23E400F5B0D6 /* SignUpPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2613EEAB2B8E23E400F5B0D6 /* SignUpPasswordViewController.swift */; };
 		26D177142B8CBCA600B57D25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D177132B8CBCA600B57D25 /* AppDelegate.swift */; };
 		26D177162B8CBCA600B57D25 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D177152B8CBCA600B57D25 /* SceneDelegate.swift */; };
 		26D177182B8CBCA600B57D25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D177172B8CBCA600B57D25 /* ViewController.swift */; };
@@ -60,6 +62,8 @@
 		2613EE9B2B8E125E00F5B0D6 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		2613EE9C2B8E125E00F5B0D6 /* Result+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Result+CoreDataClass.swift"; sourceTree = "<group>"; };
 		2613EE9D2B8E125E00F5B0D6 /* Result+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Result+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2613EEA92B8E23D300F5B0D6 /* SignUpMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpMainViewController.swift; sourceTree = "<group>"; };
+		2613EEAB2B8E23E400F5B0D6 /* SignUpPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPasswordViewController.swift; sourceTree = "<group>"; };
 		26D177102B8CBCA600B57D25 /* Triolingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Triolingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26D177132B8CBCA600B57D25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26D177152B8CBCA600B57D25 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -164,6 +168,8 @@
 				26D177212B8CBCA800B57D25 /* Info.plist */,
 				26D177452B8CCE0A00B57D25 /* CustomTableViewController.swift */,
 				26D177472B8CCF0100B57D25 /* CustomTableViewCell.swift */,
+				2613EEA92B8E23D300F5B0D6 /* SignUpMainViewController.swift */,
+				2613EEAB2B8E23E400F5B0D6 /* SignUpPasswordViewController.swift */,
 			);
 			path = Triolingo;
 			sourceTree = "<group>";
@@ -323,10 +329,12 @@
 				26D177182B8CBCA600B57D25 /* ViewController.swift in Sources */,
 				26D1774B2B8CEFE700B57D25 /* TriolingoDataModel.xcdatamodeld in Sources */,
 				2613EEA42B8E125E00F5B0D6 /* User+CoreDataClass.swift in Sources */,
+				2613EEAA2B8E23D300F5B0D6 /* SignUpMainViewController.swift in Sources */,
 				2613EEA12B8E125E00F5B0D6 /* Question+CoreDataProperties.swift in Sources */,
 				2613EEA62B8E125E00F5B0D6 /* Result+CoreDataClass.swift in Sources */,
 				2613EEA52B8E125E00F5B0D6 /* User+CoreDataProperties.swift in Sources */,
 				26D177142B8CBCA600B57D25 /* AppDelegate.swift in Sources */,
+				2613EEAC2B8E23E400F5B0D6 /* SignUpPasswordViewController.swift in Sources */,
 				26D177162B8CBCA600B57D25 /* SceneDelegate.swift in Sources */,
 				2613EEA72B8E125E00F5B0D6 /* Result+CoreDataProperties.swift in Sources */,
 				2613EEA22B8E125E00F5B0D6 /* Quiz+CoreDataClass.swift in Sources */,
