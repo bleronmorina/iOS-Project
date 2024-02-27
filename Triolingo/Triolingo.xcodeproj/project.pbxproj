@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2613EE9E2B8E125E00F5B0D6 /* Language+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2613EE942B8E125E00F5B0D6 /* Language+CoreDataClass.swift */; };
+		2613EE9F2B8E125E00F5B0D6 /* Language+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2613EE952B8E125E00F5B0D6 /* Language+CoreDataProperties.swift */; };
+		2613EEA02B8E125E00F5B0D6 /* Question+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2613EE962B8E125E00F5B0D6 /* Question+CoreDataClass.swift */; };
+		2613EEA12B8E125E00F5B0D6 /* Question+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2613EE972B8E125E00F5B0D6 /* Question+CoreDataProperties.swift */; };
+		2613EEA22B8E125E00F5B0D6 /* Quiz+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2613EE982B8E125E00F5B0D6 /* Quiz+CoreDataClass.swift */; };
+		2613EEA32B8E125E00F5B0D6 /* Quiz+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2613EE992B8E125E00F5B0D6 /* Quiz+CoreDataProperties.swift */; };
+		2613EEA42B8E125E00F5B0D6 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2613EE9A2B8E125E00F5B0D6 /* User+CoreDataClass.swift */; };
+		2613EEA52B8E125E00F5B0D6 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2613EE9B2B8E125E00F5B0D6 /* User+CoreDataProperties.swift */; };
+		2613EEA62B8E125E00F5B0D6 /* Result+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2613EE9C2B8E125E00F5B0D6 /* Result+CoreDataClass.swift */; };
+		2613EEA72B8E125E00F5B0D6 /* Result+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2613EE9D2B8E125E00F5B0D6 /* Result+CoreDataProperties.swift */; };
 		26D177142B8CBCA600B57D25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D177132B8CBCA600B57D25 /* AppDelegate.swift */; };
 		26D177162B8CBCA600B57D25 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D177152B8CBCA600B57D25 /* SceneDelegate.swift */; };
 		26D177182B8CBCA600B57D25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D177172B8CBCA600B57D25 /* ViewController.swift */; };
@@ -40,6 +50,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2613EE942B8E125E00F5B0D6 /* Language+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Language+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2613EE952B8E125E00F5B0D6 /* Language+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Language+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2613EE962B8E125E00F5B0D6 /* Question+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Question+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2613EE972B8E125E00F5B0D6 /* Question+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Question+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2613EE982B8E125E00F5B0D6 /* Quiz+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quiz+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2613EE992B8E125E00F5B0D6 /* Quiz+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quiz+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2613EE9A2B8E125E00F5B0D6 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2613EE9B2B8E125E00F5B0D6 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2613EE9C2B8E125E00F5B0D6 /* Result+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Result+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2613EE9D2B8E125E00F5B0D6 /* Result+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Result+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		26D177102B8CBCA600B57D25 /* Triolingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Triolingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26D177132B8CBCA600B57D25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26D177152B8CBCA600B57D25 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +104,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2613EE912B8E02E900F5B0D6 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				26D177492B8CEFE700B57D25 /* TriolingoDataModel.xcdatamodeld */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		2613EEA82B8E127D00F5B0D6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2613EE942B8E125E00F5B0D6 /* Language+CoreDataClass.swift */,
+				2613EE952B8E125E00F5B0D6 /* Language+CoreDataProperties.swift */,
+				2613EE962B8E125E00F5B0D6 /* Question+CoreDataClass.swift */,
+				2613EE972B8E125E00F5B0D6 /* Question+CoreDataProperties.swift */,
+				2613EE982B8E125E00F5B0D6 /* Quiz+CoreDataClass.swift */,
+				2613EE992B8E125E00F5B0D6 /* Quiz+CoreDataProperties.swift */,
+				2613EE9A2B8E125E00F5B0D6 /* User+CoreDataClass.swift */,
+				2613EE9B2B8E125E00F5B0D6 /* User+CoreDataProperties.swift */,
+				2613EE9C2B8E125E00F5B0D6 /* Result+CoreDataClass.swift */,
+				2613EE9D2B8E125E00F5B0D6 /* Result+CoreDataProperties.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		26D177072B8CBCA600B57D25 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +152,8 @@
 		26D177122B8CBCA600B57D25 /* Triolingo */ = {
 			isa = PBXGroup;
 			children = (
+				2613EEA82B8E127D00F5B0D6 /* Models */,
+				2613EE912B8E02E900F5B0D6 /* DataModel */,
 				26D177132B8CBCA600B57D25 /* AppDelegate.swift */,
 				26D177152B8CBCA600B57D25 /* SceneDelegate.swift */,
 				26D177172B8CBCA600B57D25 /* ViewController.swift */,
@@ -117,7 +164,6 @@
 				26D177212B8CBCA800B57D25 /* Info.plist */,
 				26D177452B8CCE0A00B57D25 /* CustomTableViewController.swift */,
 				26D177472B8CCF0100B57D25 /* CustomTableViewCell.swift */,
-				26D177492B8CEFE700B57D25 /* TriolingoDataModel.xcdatamodeld */,
 			);
 			path = Triolingo;
 			sourceTree = "<group>";
@@ -270,13 +316,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2613EEA32B8E125E00F5B0D6 /* Quiz+CoreDataProperties.swift in Sources */,
+				2613EE9F2B8E125E00F5B0D6 /* Language+CoreDataProperties.swift in Sources */,
 				26D177482B8CCF0100B57D25 /* CustomTableViewCell.swift in Sources */,
 				26D177442B8CBFDA00B57D25 /* LoginViewController.swift in Sources */,
 				26D177182B8CBCA600B57D25 /* ViewController.swift in Sources */,
 				26D1774B2B8CEFE700B57D25 /* TriolingoDataModel.xcdatamodeld in Sources */,
+				2613EEA42B8E125E00F5B0D6 /* User+CoreDataClass.swift in Sources */,
+				2613EEA12B8E125E00F5B0D6 /* Question+CoreDataProperties.swift in Sources */,
+				2613EEA62B8E125E00F5B0D6 /* Result+CoreDataClass.swift in Sources */,
+				2613EEA52B8E125E00F5B0D6 /* User+CoreDataProperties.swift in Sources */,
 				26D177142B8CBCA600B57D25 /* AppDelegate.swift in Sources */,
 				26D177162B8CBCA600B57D25 /* SceneDelegate.swift in Sources */,
+				2613EEA72B8E125E00F5B0D6 /* Result+CoreDataProperties.swift in Sources */,
+				2613EEA22B8E125E00F5B0D6 /* Quiz+CoreDataClass.swift in Sources */,
 				26D177462B8CCE0A00B57D25 /* CustomTableViewController.swift in Sources */,
+				2613EE9E2B8E125E00F5B0D6 /* Language+CoreDataClass.swift in Sources */,
+				2613EEA02B8E125E00F5B0D6 /* Question+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
