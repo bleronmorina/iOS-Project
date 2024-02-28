@@ -19,14 +19,14 @@ class LoginViewController: UIViewController {
     
     
     @IBAction func kycuAction (sender: UIButton){
-        var usr:String?
-        usr = username.text
-        
-        var pwd:String?
-        pwd = password.text
-        
-        if(usr == "admin" && pwd=="admin"){
-            
+        if let usr = username.text, let pwd = password.text, !usr.isEmpty, !pwd.isEmpty {
+            if let user = UserAuthService.login(username: usr, password: pwd) {
+                print("Login successful for user: \(user.username ?? "Unknown Username")")
+            } else {
+                print("Login failed. Invalid username or password.")
+            }
+        } else {
+            print("Username or password is empty.")
         }
     }
     /*
