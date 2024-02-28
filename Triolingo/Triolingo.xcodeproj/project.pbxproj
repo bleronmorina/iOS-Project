@@ -30,6 +30,9 @@
 		26D177462B8CCE0A00B57D25 /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D177452B8CCE0A00B57D25 /* CustomTableViewController.swift */; };
 		26D177482B8CCF0100B57D25 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D177472B8CCF0100B57D25 /* CustomTableViewCell.swift */; };
 		26D1774B2B8CEFE700B57D25 /* TriolingoDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 26D177492B8CEFE700B57D25 /* TriolingoDataModel.xcdatamodeld */; };
+		710699782B8E670E007737AE /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710699772B8E670E007737AE /* UserRepository.swift */; };
+		7106997A2B8E6AA4007737AE /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710699792B8E6AA4007737AE /* CoreDataManager.swift */; };
+		71FFBBCD2B8E5F6600AC335F /* UserAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FFBBCC2B8E5F6600AC335F /* UserAuthService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +80,9 @@
 		26D177452B8CCE0A00B57D25 /* CustomTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
 		26D177472B8CCF0100B57D25 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		26D1774A2B8CEFE700B57D25 /* TriolingoDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TriolingoDataModel.xcdatamodel; sourceTree = "<group>"; };
+		710699772B8E670E007737AE /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
+		710699792B8E6AA4007737AE /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		71FFBBCC2B8E5F6600AC335F /* UserAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +170,9 @@
 				26D177212B8CBCA800B57D25 /* Info.plist */,
 				26D177452B8CCE0A00B57D25 /* CustomTableViewController.swift */,
 				26D177472B8CCF0100B57D25 /* CustomTableViewCell.swift */,
+				710699772B8E670E007737AE /* UserRepository.swift */,
+				71FFBBCC2B8E5F6600AC335F /* UserAuthService.swift */,
+				710699792B8E6AA4007737AE /* CoreDataManager.swift */,
 			);
 			path = Triolingo;
 			sourceTree = "<group>";
@@ -322,6 +331,7 @@
 				26D177442B8CBFDA00B57D25 /* LoginViewController.swift in Sources */,
 				26D177182B8CBCA600B57D25 /* ViewController.swift in Sources */,
 				26D1774B2B8CEFE700B57D25 /* TriolingoDataModel.xcdatamodeld in Sources */,
+				71FFBBCD2B8E5F6600AC335F /* UserAuthService.swift in Sources */,
 				2613EEA42B8E125E00F5B0D6 /* User+CoreDataClass.swift in Sources */,
 				2613EEA12B8E125E00F5B0D6 /* Question+CoreDataProperties.swift in Sources */,
 				2613EEA62B8E125E00F5B0D6 /* Result+CoreDataClass.swift in Sources */,
@@ -332,6 +342,8 @@
 				2613EEA22B8E125E00F5B0D6 /* Quiz+CoreDataClass.swift in Sources */,
 				26D177462B8CCE0A00B57D25 /* CustomTableViewController.swift in Sources */,
 				2613EE9E2B8E125E00F5B0D6 /* Language+CoreDataClass.swift in Sources */,
+				710699782B8E670E007737AE /* UserRepository.swift in Sources */,
+				7106997A2B8E6AA4007737AE /* CoreDataManager.swift in Sources */,
 				2613EEA02B8E125E00F5B0D6 /* Question+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
