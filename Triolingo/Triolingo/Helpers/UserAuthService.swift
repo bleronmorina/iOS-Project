@@ -10,8 +10,11 @@ import Foundation
 class UserAuthService{
     
     static func login(username: String, password: String) -> User? {
+        let passwordHashed = SmallServices.sha256(password)
             if let user = UserRepository.getUserByUsername(username) {
-                if (user.password == password) {
+                if (user.password == passwordHashed) {
+                    let userIdString = user.userID?.uuidString
+                    UserDefaults.standard.set(userIdString, forKey: "userID")
                     return user
                 }
             } else {

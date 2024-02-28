@@ -19,6 +19,8 @@
 		2613EEA72B8E125E00F5B0D6 /* Result+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2613EE9D2B8E125E00F5B0D6 /* Result+CoreDataProperties.swift */; };
 		2613EEAA2B8E23D300F5B0D6 /* SignUpMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2613EEA92B8E23D300F5B0D6 /* SignUpMainViewController.swift */; };
 		2613EEAC2B8E23E400F5B0D6 /* SignUpPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2613EEAB2B8E23E400F5B0D6 /* SignUpPasswordViewController.swift */; };
+		267415002B8F8C450006D00C /* SmallServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267414FF2B8F8C450006D00C /* SmallServices.swift */; };
+		26B4BA3C2B8F439900CE0287 /* WelcomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B4BA3B2B8F439900CE0287 /* WelcomePageViewController.swift */; };
 		26D177142B8CBCA600B57D25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D177132B8CBCA600B57D25 /* AppDelegate.swift */; };
 		26D177162B8CBCA600B57D25 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D177152B8CBCA600B57D25 /* SceneDelegate.swift */; };
 		26D177182B8CBCA600B57D25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D177172B8CBCA600B57D25 /* ViewController.swift */; };
@@ -30,10 +32,8 @@
 		26D177372B8CBCA800B57D25 /* TriolingoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D177362B8CBCA800B57D25 /* TriolingoUITestsLaunchTests.swift */; };
 		26D177442B8CBFDA00B57D25 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D177432B8CBFDA00B57D25 /* LoginViewController.swift */; };
 		26D177462B8CCE0A00B57D25 /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D177452B8CCE0A00B57D25 /* CustomTableViewController.swift */; };
-		26D177482B8CCF0100B57D25 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D177472B8CCF0100B57D25 /* CustomTableViewCell.swift */; };
 		26D1774B2B8CEFE700B57D25 /* TriolingoDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 26D177492B8CEFE700B57D25 /* TriolingoDataModel.xcdatamodeld */; };
 		710699782B8E670E007737AE /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710699772B8E670E007737AE /* UserRepository.swift */; };
-		7106997A2B8E6AA4007737AE /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710699792B8E6AA4007737AE /* CoreDataManager.swift */; };
 		71FFBBCD2B8E5F6600AC335F /* UserAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FFBBCC2B8E5F6600AC335F /* UserAuthService.swift */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +67,8 @@
 		2613EE9D2B8E125E00F5B0D6 /* Result+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Result+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		2613EEA92B8E23D300F5B0D6 /* SignUpMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpMainViewController.swift; sourceTree = "<group>"; };
 		2613EEAB2B8E23E400F5B0D6 /* SignUpPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPasswordViewController.swift; sourceTree = "<group>"; };
+		267414FF2B8F8C450006D00C /* SmallServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallServices.swift; sourceTree = "<group>"; };
+		26B4BA3B2B8F439900CE0287 /* WelcomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageViewController.swift; sourceTree = "<group>"; };
 		26D177102B8CBCA600B57D25 /* Triolingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Triolingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26D177132B8CBCA600B57D25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26D177152B8CBCA600B57D25 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,10 +84,8 @@
 		26D177362B8CBCA800B57D25 /* TriolingoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriolingoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		26D177432B8CBFDA00B57D25 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		26D177452B8CCE0A00B57D25 /* CustomTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
-		26D177472B8CCF0100B57D25 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		26D1774A2B8CEFE700B57D25 /* TriolingoDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TriolingoDataModel.xcdatamodel; sourceTree = "<group>"; };
 		710699772B8E670E007737AE /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
-		710699792B8E6AA4007737AE /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		71FFBBCC2B8E5F6600AC335F /* UserAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,6 +139,29 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		267414FD2B8F84490006D00C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				26D177172B8CBCA600B57D25 /* ViewController.swift */,
+				26D177432B8CBFDA00B57D25 /* LoginViewController.swift */,
+				26D177452B8CCE0A00B57D25 /* CustomTableViewController.swift */,
+				2613EEA92B8E23D300F5B0D6 /* SignUpMainViewController.swift */,
+				2613EEAB2B8E23E400F5B0D6 /* SignUpPasswordViewController.swift */,
+				26B4BA3B2B8F439900CE0287 /* WelcomePageViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		267414FE2B8F84AC0006D00C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				710699772B8E670E007737AE /* UserRepository.swift */,
+				71FFBBCC2B8E5F6600AC335F /* UserAuthService.swift */,
+				267414FF2B8F8C450006D00C /* SmallServices.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		26D177072B8CBCA600B57D25 = {
 			isa = PBXGroup;
 			children = (
@@ -162,23 +185,16 @@
 		26D177122B8CBCA600B57D25 /* Triolingo */ = {
 			isa = PBXGroup;
 			children = (
+				267414FE2B8F84AC0006D00C /* Helpers */,
+				267414FD2B8F84490006D00C /* Controllers */,
 				2613EEA82B8E127D00F5B0D6 /* Models */,
 				2613EE912B8E02E900F5B0D6 /* DataModel */,
 				26D177132B8CBCA600B57D25 /* AppDelegate.swift */,
 				26D177152B8CBCA600B57D25 /* SceneDelegate.swift */,
-				26D177172B8CBCA600B57D25 /* ViewController.swift */,
 				26D177192B8CBCA600B57D25 /* Main.storyboard */,
-				26D177432B8CBFDA00B57D25 /* LoginViewController.swift */,
 				26D1771C2B8CBCA800B57D25 /* Assets.xcassets */,
 				26D1771E2B8CBCA800B57D25 /* LaunchScreen.storyboard */,
 				26D177212B8CBCA800B57D25 /* Info.plist */,
-				26D177452B8CCE0A00B57D25 /* CustomTableViewController.swift */,
-				26D177472B8CCF0100B57D25 /* CustomTableViewCell.swift */,
-				710699772B8E670E007737AE /* UserRepository.swift */,
-				71FFBBCC2B8E5F6600AC335F /* UserAuthService.swift */,
-				710699792B8E6AA4007737AE /* CoreDataManager.swift */,
-				2613EEA92B8E23D300F5B0D6 /* SignUpMainViewController.swift */,
-				2613EEAB2B8E23E400F5B0D6 /* SignUpPasswordViewController.swift */,
 			);
 			path = Triolingo;
 			sourceTree = "<group>";
@@ -333,7 +349,6 @@
 			files = (
 				2613EEA32B8E125E00F5B0D6 /* Quiz+CoreDataProperties.swift in Sources */,
 				2613EE9F2B8E125E00F5B0D6 /* Language+CoreDataProperties.swift in Sources */,
-				26D177482B8CCF0100B57D25 /* CustomTableViewCell.swift in Sources */,
 				26D177442B8CBFDA00B57D25 /* LoginViewController.swift in Sources */,
 				26D177182B8CBCA600B57D25 /* ViewController.swift in Sources */,
 				26D1774B2B8CEFE700B57D25 /* TriolingoDataModel.xcdatamodeld in Sources */,
@@ -346,13 +361,14 @@
 				26D177142B8CBCA600B57D25 /* AppDelegate.swift in Sources */,
 				2613EEAC2B8E23E400F5B0D6 /* SignUpPasswordViewController.swift in Sources */,
 				26D177162B8CBCA600B57D25 /* SceneDelegate.swift in Sources */,
+				26B4BA3C2B8F439900CE0287 /* WelcomePageViewController.swift in Sources */,
 				2613EEA72B8E125E00F5B0D6 /* Result+CoreDataProperties.swift in Sources */,
 				2613EEA22B8E125E00F5B0D6 /* Quiz+CoreDataClass.swift in Sources */,
 				26D177462B8CCE0A00B57D25 /* CustomTableViewController.swift in Sources */,
 				2613EE9E2B8E125E00F5B0D6 /* Language+CoreDataClass.swift in Sources */,
 				710699782B8E670E007737AE /* UserRepository.swift in Sources */,
-				7106997A2B8E6AA4007737AE /* CoreDataManager.swift in Sources */,
 				2613EEA02B8E125E00F5B0D6 /* Question+CoreDataClass.swift in Sources */,
+				267415002B8F8C450006D00C /* SmallServices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
