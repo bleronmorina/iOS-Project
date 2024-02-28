@@ -8,7 +8,7 @@
     </entity>
     <entity name="Question" representedClassName="Question" syncable="YES">
         <attribute name="answer" optional="YES" attributeType="String"/>
-        <attribute name="options" optional="YES" attributeType="Transformable"/>
+        <attribute name="options" optional="YES" attributeType="Transformable" valueTransformerName=""/>
         <attribute name="questionID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
         <attribute name="text" optional="YES" attributeType="String"/>
         <relationship name="quiz" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Quiz" inverseName="questions" inverseEntity="Quiz"/>

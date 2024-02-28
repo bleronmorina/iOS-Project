@@ -12,6 +12,7 @@ import CommonCrypto
 
 
 
+
 class SignUpPasswordViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -20,16 +21,7 @@ class SignUpPasswordViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    func sha256(_ str: String) -> String {
-        if let data = str.data(using: .utf8) {
-            var hash = [UInt8](repeating: 0, count: Int(CC_SHA256_DIGEST_LENGTH))
-            data.withUnsafeBytes {
-                _ = CC_SHA256($0.baseAddress, CC_LONG(data.count), &hash)
-            }
-            return hash.map { String(format: "%02hhx", $0) }.joined()
-        }
-        return ""
-    }
+    
     
     var name: String!
     var username: String!
@@ -38,14 +30,14 @@ class SignUpPasswordViewController: UIViewController {
     var birthday: Date!
     
     
-    @IBOutlet var password: UITextInput!
-    @IBOutlet var passwordConfirmation: UITextInput!
+    @IBOutlet var password: UITextField!
+    @IBOutlet var passwordConfirmation: UITextField!
     
     let context  = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     
-    @IBAction func signUpButtonTapped(_ sender: Any) {
-        let password = password.text
-        let passwordConfirmation = passwordConfirmation.text
+    @IBAction func signUpButtonTapped(_ sender: UIButton) {
+
+        let passwordHashed:String! = SmallServices.sha256(password.text!)
         
         let newUser = User(context: self.context)
         newUser.name = name
@@ -53,9 +45,27 @@ class SignUpPasswordViewController: UIViewController {
         newUser.email = email
         newUser.userID = UUID()
         newUser.birthday = birthday
-        newUser.password = "kjsdlkj"
+        newUser.username = username
+        newUser.password = passwordHashed
         
-        try! self.context.save()
+        do {
+                try self.context.save()
+                print("Data saved successfully")
+            
+                let userIdString = newUser.userID?.uuidString
+                UserDefaults.standard.set(userIdString, forKey: "userID")
+                
+//                // Navigate to the welcome page
+//                let destinationViewController = WelcomePageViewController()
+//                navigationController?.pushViewController(destinationViewController, animated: true)
+                
+            } catch {
+                print("Error saving data: \(error)")
+            }
+        
+        let destinationViewController = WelcomePageViewController()
+            
+        navigationController?.pushViewController(destinationViewController, animated: true)
         
     }
     

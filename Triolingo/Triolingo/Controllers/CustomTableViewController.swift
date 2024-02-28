@@ -42,15 +42,15 @@ class CustomTableViewController: UITableViewController {
     }
 
    
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "userRow", for: indexPath)
-            as! CustomTableViewCell
-        // Configure the cell...
-
-        cell.lblName.text = users[indexPath.row].name
-        return cell
-    }
-   
+//    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+//        let cell = tableView.dequeueReusableCell(withIdentifier: "userRow", for: indexPath)
+//            as! CustomTableViewCell
+//        // Configure the cell...
+//
+//        cell.lblName.text = users[indexPath.row].name
+//        return cell
+//    }
+//   
 
     /*
     // Override to support conditional editing of the table view.
