@@ -11,15 +11,18 @@ import UIKit
 
 class ContentManager{
     
-    public func createQuestion(text: String, options: [String], answer: String)-> Question {
-        let newQuestion = Question()
+    public func createQuestion(context: NSManagedObjectContext, text: String, options: [String], answer: String) -> Question {
+        let newQuestion = Question(context: context)
         newQuestion.text = text
-        let optionsData = try? NSKeyedArchiver.archivedData(withRootObject: options, requiringSecureCoding: false)
-        newQuestion.options = optionsData as NSObject?
+        newQuestion.option1 = options.indices.contains(0) ? options[0] : ""
+        newQuestion.option2 = options.indices.contains(1) ? options[1] : ""
+        newQuestion.option3 = options.indices.contains(2) ? options[2] : ""
+        newQuestion.option4 = options.indices.contains(3) ? options[3] : ""
         newQuestion.answer = answer
         newQuestion.questionID = UUID()
         return newQuestion
     }
+
     
     public func createQuiz(context: NSManagedObjectContext,title: String, difficulty: String)-> Quiz {
         let newQuiz = Quiz(context: context)
@@ -28,21 +31,40 @@ class ContentManager{
         newQuiz.difficulty = difficulty
         return newQuiz
     }
+
     
-    public static func createLanguage(name: String){
-        let context  = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
-        let newLanguage = Language(context: context)
-        newLanguage.name = name
-        newLanguage.languageID = UUID()
+    func createAllQuestions() {
+ 
+      let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        // Assuming 'context' is your managed object context
+
+        // Fetch the quiz with the specified title and difficulty
+        let fetchRequest: NSFetchRequest<Quiz> = Quiz.fetchRequest()
+        fetchRequest.predicate = NSPredicate(format: "title == %@ AND difficulty == %@", "Nouns", "Hard")
+
         do {
-            try context.save()
-            print("Data saved successfully")
-        }catch {
-            print("Error saving data: \(error)")
+            let quizzes = try context.fetch(fetchRequest)
+            if let existingQuiz = quizzes.first {
+                // Delete the existing quiz
+
+                // Create a new quiz
+                let newQuiz = createQuiz(context: context, title: "Verbs", difficulty: "Easy")
+                newQuiz.addToQuestions(createQuestion(context: context, text: "How do you say 'I am going' in German?", options: ["Ich bin gegangen", "Ich gehe", "Ich gehen", "Ich bin gehen"], answer: "Ich gehe"))
+                newQuiz.addToQuestions(createQuestion(context: context, text: "What is the German translation of 'to run'?", options: ["gehen", "springen", "laufen", "fahren"], answer: "laufen"))
+                newQuiz.addToQuestions(createQuestion(context: context, text: "What is the German translation of 'to eat'?", options: ["essen", "trinken", "schlafen", "lesen"], answer: "essen"))
+
+                // Save the changes
+                try context.save()
+                print("New quiz created and saved")
+            } else {
+                print("Quiz not found")
+            }
+        } catch {
+            print("Error: \(error)")
         }
+
     }
     
-    public func createAllQuestions(){
-//        self.createLanguage(name: "German")
-    }
+    
+
 }

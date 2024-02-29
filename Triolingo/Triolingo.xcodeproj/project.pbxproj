@@ -10,6 +10,8 @@
 		2613EEAA2B8E23D300F5B0D6 /* SignUpMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2613EEA92B8E23D300F5B0D6 /* SignUpMainViewController.swift */; };
 		2613EEAC2B8E23E400F5B0D6 /* SignUpPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2613EEAB2B8E23E400F5B0D6 /* SignUpPasswordViewController.swift */; };
 		267415002B8F8C450006D00C /* SmallServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267414FF2B8F8C450006D00C /* SmallServices.swift */; };
+		26750A942B90C46B00FCBCD5 /* QuestionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26750A932B90C46B00FCBCD5 /* QuestionRepository.swift */; };
+		268E1E452B90BBD300170282 /* QuizQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268E1E442B90BBD300170282 /* QuizQuestionViewController.swift */; };
 		26B4BA3C2B8F439900CE0287 /* WelcomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B4BA3B2B8F439900CE0287 /* WelcomePageViewController.swift */; };
 		26D177142B8CBCA600B57D25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D177132B8CBCA600B57D25 /* AppDelegate.swift */; };
 		26D177162B8CBCA600B57D25 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D177152B8CBCA600B57D25 /* SceneDelegate.swift */; };
@@ -22,19 +24,23 @@
 		26D177372B8CBCA800B57D25 /* TriolingoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D177362B8CBCA800B57D25 /* TriolingoUITestsLaunchTests.swift */; };
 		26D177442B8CBFDA00B57D25 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D177432B8CBFDA00B57D25 /* LoginViewController.swift */; };
 		26D177462B8CCE0A00B57D25 /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D177452B8CCE0A00B57D25 /* CustomTableViewController.swift */; };
-		26D1774B2B8CEFE700B57D25 /* TriolingoDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 26D177492B8CEFE700B57D25 /* TriolingoDataModel.xcdatamodeld */; };
+		26E4F9FD2B90D18D0081BB13 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E4F9FA2B90D18D0081BB13 /* DataController.swift */; };
+		26E4F9FE2B90D18D0081BB13 /* TriolingoDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 26E4F9FB2B90D18D0081BB13 /* TriolingoDataModel.xcdatamodeld */; };
+		26E4FA172B90DA550081BB13 /* Question+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E4FA0F2B90DA550081BB13 /* Question+CoreDataClass.swift */; };
+		26E4FA182B90DA550081BB13 /* Question+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E4FA102B90DA550081BB13 /* Question+CoreDataProperties.swift */; };
+		26E4FA192B90DA550081BB13 /* Quiz+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E4FA112B90DA550081BB13 /* Quiz+CoreDataClass.swift */; };
+		26E4FA1A2B90DA550081BB13 /* Quiz+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E4FA122B90DA550081BB13 /* Quiz+CoreDataProperties.swift */; };
+		26E4FA1B2B90DA550081BB13 /* Result+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E4FA132B90DA550081BB13 /* Result+CoreDataClass.swift */; };
+		26E4FA1C2B90DA550081BB13 /* Result+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E4FA142B90DA550081BB13 /* Result+CoreDataProperties.swift */; };
+		26E4FA1D2B90DA550081BB13 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E4FA152B90DA550081BB13 /* User+CoreDataClass.swift */; };
+		26E4FA1E2B90DA550081BB13 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E4FA162B90DA550081BB13 /* User+CoreDataProperties.swift */; };
+		26E4FA222B90E3760081BB13 /* ChooseQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E4FA212B90E3760081BB13 /* ChooseQuizViewController.swift */; };
+		26E4FA242B90E38E0081BB13 /* ChooseDifficultyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E4FA232B90E38E0081BB13 /* ChooseDifficultyViewController.swift */; };
+		26E4FA262B90E8FE0081BB13 /* QuizController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E4FA252B90E8FE0081BB13 /* QuizController.swift */; };
+		26E4FA282B90F5420081BB13 /* ResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E4FA272B90F5420081BB13 /* ResultsTableViewController.swift */; };
+		26E4FA2A2B90F55A0081BB13 /* ResultsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E4FA292B90F55A0081BB13 /* ResultsTableViewCell.swift */; };
 		710699782B8E670E007737AE /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710699772B8E670E007737AE /* UserRepository.swift */; };
 		719B64292B8FCA9200A79F3E /* ContentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719B64282B8FCA9200A79F3E /* ContentManager.swift */; };
-		719B64702B8FEA8200A79F3E /* Language+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719B64662B8FEA8200A79F3E /* Language+CoreDataClass.swift */; };
-		719B64712B8FEA8200A79F3E /* Language+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719B64672B8FEA8200A79F3E /* Language+CoreDataProperties.swift */; };
-		719B64722B8FEA8200A79F3E /* Question+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719B64682B8FEA8200A79F3E /* Question+CoreDataClass.swift */; };
-		719B64732B8FEA8200A79F3E /* Question+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719B64692B8FEA8200A79F3E /* Question+CoreDataProperties.swift */; };
-		719B64742B8FEA8200A79F3E /* Quiz+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719B646A2B8FEA8200A79F3E /* Quiz+CoreDataClass.swift */; };
-		719B64752B8FEA8200A79F3E /* Quiz+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719B646B2B8FEA8200A79F3E /* Quiz+CoreDataProperties.swift */; };
-		719B64762B8FEA8200A79F3E /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719B646C2B8FEA8200A79F3E /* User+CoreDataClass.swift */; };
-		719B64772B8FEA8200A79F3E /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719B646D2B8FEA8200A79F3E /* User+CoreDataProperties.swift */; };
-		719B64782B8FEA8200A79F3E /* Result+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719B646E2B8FEA8200A79F3E /* Result+CoreDataClass.swift */; };
-		719B64792B8FEA8200A79F3E /* Result+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719B646F2B8FEA8200A79F3E /* Result+CoreDataProperties.swift */; };
 		71FFBBCD2B8E5F6600AC335F /* UserAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FFBBCC2B8E5F6600AC335F /* UserAuthService.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +65,8 @@
 		2613EEA92B8E23D300F5B0D6 /* SignUpMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpMainViewController.swift; sourceTree = "<group>"; };
 		2613EEAB2B8E23E400F5B0D6 /* SignUpPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPasswordViewController.swift; sourceTree = "<group>"; };
 		267414FF2B8F8C450006D00C /* SmallServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallServices.swift; sourceTree = "<group>"; };
+		26750A932B90C46B00FCBCD5 /* QuestionRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionRepository.swift; sourceTree = "<group>"; };
+		268E1E442B90BBD300170282 /* QuizQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQuestionViewController.swift; sourceTree = "<group>"; };
 		26B4BA3B2B8F439900CE0287 /* WelcomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageViewController.swift; sourceTree = "<group>"; };
 		26D177102B8CBCA600B57D25 /* Triolingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Triolingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26D177132B8CBCA600B57D25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -75,19 +83,23 @@
 		26D177362B8CBCA800B57D25 /* TriolingoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriolingoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		26D177432B8CBFDA00B57D25 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		26D177452B8CCE0A00B57D25 /* CustomTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
-		26D1774A2B8CEFE700B57D25 /* TriolingoDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TriolingoDataModel.xcdatamodel; sourceTree = "<group>"; };
+		26E4F9FA2B90D18D0081BB13 /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		26E4F9FC2B90D18D0081BB13 /* TriolingoDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TriolingoDataModel.xcdatamodel; sourceTree = "<group>"; };
+		26E4FA0F2B90DA550081BB13 /* Question+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Question+CoreDataClass.swift"; sourceTree = "<group>"; };
+		26E4FA102B90DA550081BB13 /* Question+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Question+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		26E4FA112B90DA550081BB13 /* Quiz+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quiz+CoreDataClass.swift"; sourceTree = "<group>"; };
+		26E4FA122B90DA550081BB13 /* Quiz+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quiz+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		26E4FA132B90DA550081BB13 /* Result+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Result+CoreDataClass.swift"; sourceTree = "<group>"; };
+		26E4FA142B90DA550081BB13 /* Result+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Result+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		26E4FA152B90DA550081BB13 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		26E4FA162B90DA550081BB13 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		26E4FA212B90E3760081BB13 /* ChooseQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseQuizViewController.swift; sourceTree = "<group>"; };
+		26E4FA232B90E38E0081BB13 /* ChooseDifficultyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseDifficultyViewController.swift; sourceTree = "<group>"; };
+		26E4FA252B90E8FE0081BB13 /* QuizController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizController.swift; sourceTree = "<group>"; };
+		26E4FA272B90F5420081BB13 /* ResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsTableViewController.swift; sourceTree = "<group>"; };
+		26E4FA292B90F55A0081BB13 /* ResultsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsTableViewCell.swift; sourceTree = "<group>"; };
 		710699772B8E670E007737AE /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
 		719B64282B8FCA9200A79F3E /* ContentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "\b\bContentManager.swift"; sourceTree = "<group>"; };
-		719B64662B8FEA8200A79F3E /* Language+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Language+CoreDataClass.swift"; sourceTree = "<group>"; };
-		719B64672B8FEA8200A79F3E /* Language+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Language+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		719B64682B8FEA8200A79F3E /* Question+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Question+CoreDataClass.swift"; sourceTree = "<group>"; };
-		719B64692B8FEA8200A79F3E /* Question+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Question+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		719B646A2B8FEA8200A79F3E /* Quiz+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quiz+CoreDataClass.swift"; sourceTree = "<group>"; };
-		719B646B2B8FEA8200A79F3E /* Quiz+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quiz+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		719B646C2B8FEA8200A79F3E /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
-		719B646D2B8FEA8200A79F3E /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		719B646E2B8FEA8200A79F3E /* Result+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Result+CoreDataClass.swift"; sourceTree = "<group>"; };
-		719B646F2B8FEA8200A79F3E /* Result+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Result+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		71FFBBCC2B8E5F6600AC335F /* UserAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,7 +131,8 @@
 		2613EE912B8E02E900F5B0D6 /* DataModel */ = {
 			isa = PBXGroup;
 			children = (
-				26D177492B8CEFE700B57D25 /* TriolingoDataModel.xcdatamodeld */,
+				26E4F9FA2B90D18D0081BB13 /* DataController.swift */,
+				26E4F9FB2B90D18D0081BB13 /* TriolingoDataModel.xcdatamodeld */,
 			);
 			path = DataModel;
 			sourceTree = "<group>";
@@ -127,16 +140,14 @@
 		2613EEA82B8E127D00F5B0D6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				719B64662B8FEA8200A79F3E /* Language+CoreDataClass.swift */,
-				719B64672B8FEA8200A79F3E /* Language+CoreDataProperties.swift */,
-				719B64682B8FEA8200A79F3E /* Question+CoreDataClass.swift */,
-				719B64692B8FEA8200A79F3E /* Question+CoreDataProperties.swift */,
-				719B646A2B8FEA8200A79F3E /* Quiz+CoreDataClass.swift */,
-				719B646B2B8FEA8200A79F3E /* Quiz+CoreDataProperties.swift */,
-				719B646C2B8FEA8200A79F3E /* User+CoreDataClass.swift */,
-				719B646D2B8FEA8200A79F3E /* User+CoreDataProperties.swift */,
-				719B646E2B8FEA8200A79F3E /* Result+CoreDataClass.swift */,
-				719B646F2B8FEA8200A79F3E /* Result+CoreDataProperties.swift */,
+				26E4FA0F2B90DA550081BB13 /* Question+CoreDataClass.swift */,
+				26E4FA102B90DA550081BB13 /* Question+CoreDataProperties.swift */,
+				26E4FA112B90DA550081BB13 /* Quiz+CoreDataClass.swift */,
+				26E4FA122B90DA550081BB13 /* Quiz+CoreDataProperties.swift */,
+				26E4FA132B90DA550081BB13 /* Result+CoreDataClass.swift */,
+				26E4FA142B90DA550081BB13 /* Result+CoreDataProperties.swift */,
+				26E4FA152B90DA550081BB13 /* User+CoreDataClass.swift */,
+				26E4FA162B90DA550081BB13 /* User+CoreDataProperties.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -150,6 +161,11 @@
 				2613EEA92B8E23D300F5B0D6 /* SignUpMainViewController.swift */,
 				2613EEAB2B8E23E400F5B0D6 /* SignUpPasswordViewController.swift */,
 				26B4BA3B2B8F439900CE0287 /* WelcomePageViewController.swift */,
+				268E1E442B90BBD300170282 /* QuizQuestionViewController.swift */,
+				26E4FA212B90E3760081BB13 /* ChooseQuizViewController.swift */,
+				26E4FA232B90E38E0081BB13 /* ChooseDifficultyViewController.swift */,
+				26E4FA272B90F5420081BB13 /* ResultsTableViewController.swift */,
+				26E4FA292B90F55A0081BB13 /* ResultsTableViewCell.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -161,6 +177,8 @@
 				71FFBBCC2B8E5F6600AC335F /* UserAuthService.swift */,
 				267414FF2B8F8C450006D00C /* SmallServices.swift */,
 				719B64282B8FCA9200A79F3E /* ContentManager.swift */,
+				26750A932B90C46B00FCBCD5 /* QuestionRepository.swift */,
+				26E4FA252B90E8FE0081BB13 /* QuizController.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -350,28 +368,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				719B64712B8FEA8200A79F3E /* Language+CoreDataProperties.swift in Sources */,
 				26D177442B8CBFDA00B57D25 /* LoginViewController.swift in Sources */,
-				719B64752B8FEA8200A79F3E /* Quiz+CoreDataProperties.swift in Sources */,
+				26750A942B90C46B00FCBCD5 /* QuestionRepository.swift in Sources */,
+				26E4FA1E2B90DA550081BB13 /* User+CoreDataProperties.swift in Sources */,
+				26E4FA1B2B90DA550081BB13 /* Result+CoreDataClass.swift in Sources */,
+				26E4FA222B90E3760081BB13 /* ChooseQuizViewController.swift in Sources */,
 				26D177182B8CBCA600B57D25 /* ViewController.swift in Sources */,
-				719B64722B8FEA8200A79F3E /* Question+CoreDataClass.swift in Sources */,
-				26D1774B2B8CEFE700B57D25 /* TriolingoDataModel.xcdatamodeld in Sources */,
+				26E4FA1C2B90DA550081BB13 /* Result+CoreDataProperties.swift in Sources */,
 				71FFBBCD2B8E5F6600AC335F /* UserAuthService.swift in Sources */,
+				26E4FA2A2B90F55A0081BB13 /* ResultsTableViewCell.swift in Sources */,
+				26E4FA282B90F5420081BB13 /* ResultsTableViewController.swift in Sources */,
+				26E4FA1D2B90DA550081BB13 /* User+CoreDataClass.swift in Sources */,
 				719B64292B8FCA9200A79F3E /* ContentManager.swift in Sources */,
-				719B64702B8FEA8200A79F3E /* Language+CoreDataClass.swift in Sources */,
-				719B64742B8FEA8200A79F3E /* Quiz+CoreDataClass.swift in Sources */,
-				719B64782B8FEA8200A79F3E /* Result+CoreDataClass.swift in Sources */,
 				2613EEAA2B8E23D300F5B0D6 /* SignUpMainViewController.swift in Sources */,
 				26D177142B8CBCA600B57D25 /* AppDelegate.swift in Sources */,
 				2613EEAC2B8E23E400F5B0D6 /* SignUpPasswordViewController.swift in Sources */,
+				26E4FA172B90DA550081BB13 /* Question+CoreDataClass.swift in Sources */,
+				26E4FA242B90E38E0081BB13 /* ChooseDifficultyViewController.swift in Sources */,
+				268E1E452B90BBD300170282 /* QuizQuestionViewController.swift in Sources */,
+				26E4FA192B90DA550081BB13 /* Quiz+CoreDataClass.swift in Sources */,
 				26D177162B8CBCA600B57D25 /* SceneDelegate.swift in Sources */,
-				719B64762B8FEA8200A79F3E /* User+CoreDataClass.swift in Sources */,
+				26E4FA1A2B90DA550081BB13 /* Quiz+CoreDataProperties.swift in Sources */,
 				26B4BA3C2B8F439900CE0287 /* WelcomePageViewController.swift in Sources */,
+				26E4FA262B90E8FE0081BB13 /* QuizController.swift in Sources */,
+				26E4F9FE2B90D18D0081BB13 /* TriolingoDataModel.xcdatamodeld in Sources */,
+				26E4FA182B90DA550081BB13 /* Question+CoreDataProperties.swift in Sources */,
 				26D177462B8CCE0A00B57D25 /* CustomTableViewController.swift in Sources */,
-				719B64792B8FEA8200A79F3E /* Result+CoreDataProperties.swift in Sources */,
-				719B64772B8FEA8200A79F3E /* User+CoreDataProperties.swift in Sources */,
+				26E4F9FD2B90D18D0081BB13 /* DataController.swift in Sources */,
 				710699782B8E670E007737AE /* UserRepository.swift in Sources */,
-				719B64732B8FEA8200A79F3E /* Question+CoreDataProperties.swift in Sources */,
 				267415002B8F8C450006D00C /* SmallServices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -721,12 +745,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		26D177492B8CEFE700B57D25 /* TriolingoDataModel.xcdatamodeld */ = {
+		26E4F9FB2B90D18D0081BB13 /* TriolingoDataModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				26D1774A2B8CEFE700B57D25 /* TriolingoDataModel.xcdatamodel */,
+				26E4F9FC2B90D18D0081BB13 /* TriolingoDataModel.xcdatamodel */,
 			);
-			currentVersion = 26D1774A2B8CEFE700B57D25 /* TriolingoDataModel.xcdatamodel */;
+			currentVersion = 26E4F9FC2B90D18D0081BB13 /* TriolingoDataModel.xcdatamodel */;
 			path = TriolingoDataModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

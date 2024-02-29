@@ -2,7 +2,7 @@
 //  Result+CoreDataProperties.swift
 //  Triolingo
 //
-//  Created by user257597 on 2/28/24.
+//  Created by Bleron Morina on 2024-02-29.
 //
 //
 
@@ -19,7 +19,6 @@ extension Result {
     @NSManaged public var resultID: UUID?
     @NSManaged public var score: Double
     @NSManaged public var quizzes: Quiz?
-    @NSManaged public var users: User?
 
 }
 

@@ -2,7 +2,7 @@
 //  User+CoreDataClass.swift
 //  Triolingo
 //
-//  Created by user257597 on 2/28/24.
+//  Created by Bleron Morina on 2024-02-29.
 //
 //
 
