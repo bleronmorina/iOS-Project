@@ -2,7 +2,7 @@
 //  Quiz+CoreDataClass.swift
 //  Triolingo
 //
-//  Created by Bleron Morina on 2024-02-27.
+//  Created by user257597 on 2/28/24.
 //
 //
 

@@ -2,7 +2,7 @@
 //  User+CoreDataProperties.swift
 //  Triolingo
 //
-//  Created by Bleron Morina on 2024-02-27.
+//  Created by user257597 on 2/28/24.
 //
 //
 
@@ -21,8 +21,8 @@ extension User {
     @NSManaged public var name: String?
     @NSManaged public var password: String?
     @NSManaged public var surname: String?
-    @NSManaged public var username: String?
     @NSManaged public var userID: UUID?
+    @NSManaged public var username: String?
     @NSManaged public var languages: NSSet?
     @NSManaged public var results: Result?
 

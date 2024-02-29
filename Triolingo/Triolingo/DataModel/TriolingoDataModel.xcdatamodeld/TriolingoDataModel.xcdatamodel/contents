@@ -4,6 +4,7 @@
         <attribute name="icon" optional="YES" attributeType="String"/>
         <attribute name="languageID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
         <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="quizzes" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Quiz" inverseName="language" inverseEntity="Quiz"/>
         <relationship name="users" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="User" inverseName="languages" inverseEntity="User"/>
     </entity>
     <entity name="Question" representedClassName="Question" syncable="YES">
@@ -17,13 +18,14 @@
         <attribute name="difficulty" optional="YES" attributeType="String"/>
         <attribute name="quizID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
         <attribute name="title" optional="YES" attributeType="String"/>
-        <relationship name="language" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Language"/>
+        <relationship name="language" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Language" inverseName="quizzes" inverseEntity="Language"/>
         <relationship name="questions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Question" inverseName="quiz" inverseEntity="Question"/>
+        <relationship name="results" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Result" inverseName="quizzes" inverseEntity="Result"/>
     </entity>
     <entity name="Result" representedClassName="Result" syncable="YES">
         <attribute name="resultID" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
         <attribute name="score" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
-        <relationship name="quizzes" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Quiz"/>
+        <relationship name="quizzes" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Quiz" inverseName="results" inverseEntity="Quiz"/>
         <relationship name="users" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="results" inverseEntity="User"/>
     </entity>
     <entity name="User" representedClassName="User" syncable="YES">
