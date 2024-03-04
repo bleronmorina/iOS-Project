@@ -2,7 +2,7 @@
 //  Quiz+CoreDataProperties.swift
 //  Triolingo
 //
-//  Created by Bleron Morina on 2024-02-27.
+//  Created by Bleron Morina on 2024-02-29.
 //
 //
 
@@ -19,8 +19,8 @@ extension Quiz {
     @NSManaged public var difficulty: String?
     @NSManaged public var quizID: UUID?
     @NSManaged public var title: String?
-    @NSManaged public var language: Language?
     @NSManaged public var questions: NSSet?
+    @NSManaged public var results: Result?
 
 }
 
